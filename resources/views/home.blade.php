@@ -13,7 +13,7 @@
                         
                         @foreach ($quiz_list as $quiz)
                         
-                        <li>{{ $quiz->title }}</li>
+                        <li><a href="quiz/{{ $quiz->id }}">{{ $quiz->title }}</a></li>
                         
                         @endforeach
                         
